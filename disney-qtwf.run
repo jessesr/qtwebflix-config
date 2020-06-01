@@ -1,0 +1,6 @@
+cp /run/media/jesse/media/app/qtWebflix/providers-disney.conf /home/jesse/.config/Qtwebflix/Providers.conf
+cp /run/media/jesse/media/app/qtWebflix/save_state-disney.conf /home/jesse/.config/Qtwebflix/save_state.conf
+
+/usr/bin/qtwebflix --disable-seccomp-filter-sandbox --provider http://www.disneyplus.com/
+
+cp /home/jesse/.config/Qtwebflix/save_state.conf /run/media/jesse/media/app/qtWebflix/save_state-disney.conf

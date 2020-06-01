@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=QtWebFlix-netflix
+GenericName=QtWebFlix
+Comment=Standalone player for several streaming platforms
+Categories=Network;AudioVideo;Player;
+Exec=/run/media/jesse/media/app/qtWebflix/netflix-qtwf.run
+Icon=/run/media/jesse/media/app/qtWebflix/netflix.ico
+StartupNotify=false
+Terminal=false
+Type=Application
+Name[en_US]=appNetflix

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hboQtWebFlix
+GenericName=hboQtWebFlix
+Comment=Standalone player for several streaming platforms
+Categories=Network;AudioVideo;Player;
+Exec=/run/media/jesse/media/app/qtWebflix/hbo-qtwf.run
+Icon=/run/media/jesse/media/app/qtWebflix/hbo.ico
+StartupNotify=false
+Terminal=false
+Type=Application
+Name[en_US]=appHbo

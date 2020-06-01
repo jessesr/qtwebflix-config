@@ -1,0 +1,6 @@
+cp /run/media/jesse/media/app/qtWebflix/providers-prime.conf /home/jesse/.config/Qtwebflix/Providers.conf
+cp /run/media/jesse/media/app/qtWebflix/save_state-prime.conf /home/jesse/.config/Qtwebflix/save_state.conf
+
+/usr/bin/qtwebflix --disable-seccomp-filter-sandbox --provider https://www.primevideo.com/region/eu/storefront/home/ref=atv_nb_logo
+
+cp /home/jesse/.config/Qtwebflix/save_state.conf /run/media/jesse/media/app/qtWebflix/save_state-prime.conf
